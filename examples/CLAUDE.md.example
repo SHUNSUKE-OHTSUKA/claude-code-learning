@@ -1,0 +1,17 @@
+# CLAUDE.md
+
+## プロジェクト概要
+- Node.js + TypeScriptのWeb API。認証はJWT。
+
+## ビルド・テスト
+- インストール: `npm install`
+- テスト: `npm test`
+- Lint: `npm run lint`
+
+## コーディング規約
+- インデントはスペース2つ
+- コミットメッセージは英語、Conventional Commits形式
+
+## 注意点
+- `legacy/` 配下は触らない（廃止予定、触ると既存テストが壊れる）
+- DBマイグレーションは必ず `npm run migrate:dry` で事前確認してから適用する

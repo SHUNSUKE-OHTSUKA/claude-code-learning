@@ -1,0 +1,8 @@
+---
+name: pr-checklist
+description: PRを作成する前に必ず使う。テスト・lint・CHANGELOGの確認を行う。
+---
+1. `npm test` と `npm run lint` を実行し、両方成功することを確認する
+2. 変更内容が CHANGELOG.md に追記されているか確認する。なければ追記する
+3. コミットメッセージがConventional Commits形式か確認する
+4. 上記が揃ったら `gh pr create` で下書きPRを作る
