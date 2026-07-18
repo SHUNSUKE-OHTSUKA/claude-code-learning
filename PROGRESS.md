@@ -18,15 +18,15 @@
 
 ### Phase 2｜効率化
 
-- [ ] settings.jsonに許可リストを設定した
-- [ ] Plan Modeを使って計画レビューをした
-- [ ] カスタムスラッシュコマンドを1つ作った
+- [x] settings.jsonに許可リストを設定した
+- [x] Plan Modeを使って計画レビューをした
+- [x] カスタムスラッシュコマンドを1つ作った
 
 ### Phase 3｜拡張
 
-- [ ] SKILL.mdを1つ作った
-- [ ] MCPサーバーを1つ接続した
-- [ ] hooksでformatter自動実行を設定した
+- [x] SKILL.mdを1つ作った
+- [x] MCPサーバーを1つ接続した
+- [x] hooksでformatter自動実行を設定した
 
 ### Phase 4｜自動化・並列化
 
